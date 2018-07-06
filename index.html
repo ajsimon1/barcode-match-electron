@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
+    <title>Barcode Matching App</title>
+  </head>
+  <body>
+    <div class="ui container">
+      <div class="ui left aligned container">
+      <h1>Scan Assets</h1>
+      </div>
+      <hr>
+      <form class="ui form">
+        <div class=" required field">
+          <label>Asset 1</label>
+          <input type="text" name="asset-one" placeholder="Enter Barcode">
+        </div>
+        <div class="required field">
+          <label>Asset 2</label>
+          <input type="text" name="asset-two" placeholder="Enter Barcode">
+        </div>
+          <button onclick="confirmBarcodes" class="ui button" id="confirm" type="submit">Confirm</button>
+      </form>
+      <div class="ui success message">
+        <i class="close icon"></i>
+        <div class="header">
+          SUCCESS!
+        </div>
+        <p>Barcodes match, you may proceed.</p>
+      </div>
+    </div>
+    <script
+    src="https://code.jquery.com/jquery-3.1.1.min.js"
+    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    crossorigin="anonymous"></script>
+    <script src="semantic/dist/semantic.min.js"></script>
+  </body>
+</html>

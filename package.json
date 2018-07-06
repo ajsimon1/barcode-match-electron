@@ -1,0 +1,27 @@
+{
+  "name": "barcode-match",
+  "version": "1.0.0",
+  "description": "An app that comapares values of 2 fields and alerts the result",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajsimon1/barcode-match.git"
+  },
+  "keywords": [
+    "electron",
+    "barcode",
+    "match"
+  ],
+  "author": "Adam Simon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ajsimon1/barcode-match/issues"
+  },
+  "homepage": "https://github.com/ajsimon1/barcode-match#readme",
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}
